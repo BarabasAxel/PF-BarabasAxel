@@ -1,0 +1,13 @@
+/*abstracts*/
+@import "./abstracts/variables";
+
+/*bases*/
+@import "./base/resets";
+@import "./base/base";
+
+/*layout*/
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/body";
+
+/*componentes*/
