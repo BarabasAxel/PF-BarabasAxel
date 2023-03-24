@@ -10,19 +10,21 @@
     <!-- Mi estilo CSS -->
     <link rel="stylesheet" href="../css/main.css">
     
-    <title>Pagina Principal</title>
+    <title>GyP - Ayuda</title>
+
+    <meta name="ayuda" content="Sección de preguntas frecuentes y para contactarnos">
 </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md justify-content-center" style="background-color: #e3f2fd;">
         <div class="container">
-        <a href="/" class="navbar-brand mr-0">
-            <img class="logotipo" src="../images/GyP.jpeg" alt="logo">
+        <a href="../index.html" class="navbar-brand mr-0">
+            <img class="logotipo" src="../images/GyP.webp" alt="logo">
         </a>
-        <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar2" aria-controls="collapsingNavbar2" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" tabindex="-1" id="collapsingNavbar2">
             <ul class="navbar-nav mx-auto text-center">
                 <li class="nav-item active">
                     <a class="nav-link" href="../index.html"><span class="sr-only">INICIO</span></a>
@@ -37,8 +39,8 @@
                     <a class="nav-link" href="./ayuda.html">AYUDA</a>
                 </li>
             </ul>
-            <a href="/" class="nav navbar-nav flex-row justify-content-center flex-nowrap">
-                <img class="logotipo" src="../images/carrito.png" alt="logo">
+            <a href="../pages/carrito.html" class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+                <img class="logotipo" src="../images/carrito.webp" alt="carrito">
             </a>
         </div>
     </div>
@@ -46,7 +48,7 @@
 
     <!-- Ayuda -->
     <main class="container altura-a-b">
-        <h1 class="text-center mb-5">¿EN QUE PODEMOS AYUDARTE?</h1>
+        <h2 class="text-center mb-5">¿EN QUE PODEMOS AYUDARTE?</h2>
         <h4>Preguntas Frecuentes</h4>
 
         <!-- Acordeon -->
@@ -54,41 +56,41 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Primera pregunta
+                  ¿Cómo elegir el diseño y tamaño de las alfombras?
                 </button>
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Respuesta 1</div>
+                <div class="accordion-body">En cuanto al diseño, podés elegir el diseño que a vos más te guste. Por otro lado, el tamaño de la alfombra tiene que ser como máximo de 180cm x 180cm. En ambos casos, nos dirigimos a la seccíon de productos personalizados donde te pide explícitamente el diseño de la alfombra en formato imagen o pdf, así como también el tamaño.</div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                   Segunda pregunta
+                  ¿De qué material estan hechas las alfombras?
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Respuesta 2</div>
+                <div class="accordion-body">El material principal es lana de alta calidad, telas aptas para alfombras de algodon y pegamento para alfombras.</div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Tercera Pregunta
+                  ¿Cuánto tiempo tardará el envío de mi producto?
                 </button>
               </h2>
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Respuesta 3</div>
+                <div class="accordion-body">La creación del producto va a depender del tamaño del mismo que variará entre 5 a 10 dias hábiles, luego de eso entre 48 a 72 horas le llegará a su domicilio. Si tiene algún problema con los envíos por favor contáctese a ...</div>
               </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingFour">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    Cuarta pregunta
+                    ¿Es posible realizar envíos internacionales de productos?
                   </button>
                 </h2>
                 <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Respuesta 4</div>
+                  <div class="accordion-body">Sí, es posible realizar envíos internacionales de productos, pero debes considerar las regulaciones y leyes de aduana de cada país, los costos adicionales, y el tiempo de entrega.</div>
                 </div>
               </div>
         </div>
@@ -101,11 +103,11 @@
             <input type="text" class="form-control" id="exampleFormControlInput1">
         </div>
         <div class="mb-3">
-            <label for="exampleFormControlInput2" class="form-label">Email address</label>
+            <label for="exampleFormControlInput2" class="form-label">Correo electronico</label>
             <input type="email" class="form-control" id="exampleFormControlInput2">
         </div>
         <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Escribe Tu Mensaje</label>
+            <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 
